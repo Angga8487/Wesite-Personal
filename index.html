@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <link rel='icon' href='My Logo.png'>
+  <meta charset="UTF-8">
+  <title>Developer-8487</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> My Biodata </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+    <title>My Biodata</title>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Welcome</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    
+    <Section>
+        <h2 id="text"><span>hallo My Name Is</span><br>Angga Nur Fauyi</h2>
+        
+        <img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png" id="bird1">
+        <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png" id="bird2">
+        <img src="https://user-images.githubusercontent.com/65358991/170092559-883fe071-eb4f-4610-8c8b-a037d061c617.png" id="forest">
+        
+        <a href="#" id="btn">Next</a>
+        
+        <img src="https://user-images.githubusercontent.com/65358991/170092605-eada6510-d556-45cc-b7fa-9e4d1d258d26.png" id="rocks">
+        <img src="https://user-images.githubusercontent.com/65358991/170092616-5a70c4af-2eed-496f-bde9-b5fcc7142a31.png" id="water">
+    </Section>
+    
+    <div class="sec">
+        <h2>Halo,</h2>
+        <p>Perkenalkan, nama saya adalah Angga Nur Fauyi. Saya sangat senang bisa berbagi sedikit tentang diri saya. Saya adalah 20 tahun dan berasal dari Jawa Tengah, Grobogan. Lebih tepatnya saya tinggal di kecamatan Tawangharjo, Desa Jono.
+<br><br>
+Saya memiliki berbagai minat dan hobi. Salah satunya adalah bermain Sepakbola, di mana saya menemukan kebahagiaan dan inspirasi. Selain itu, saya juga suka Main Game Online, yang membantu saya menjaga keseimbangan dalam kehidupan sehari-hari.
+<br><br>
+Saya memiliki latar belakang pendidikan di Semarang sebagai Mahasiswa di Universitas Semarang {USM}, dan saya sangat bahagia bisa kuliah di kampus tersebut.
+<br><br>
+Saya berharap dapat terhubung dengan banyak orang di sini dan berbagi pengetahuan, pengalaman, serta pandangan. Jangan ragu untuk mengajukan pertanyaan atau berbicara tentang apa pun. Saya sangat antusias untuk memulai perjalanan baru ini dan mengenal lebih banyak teman baru di sini.
+<br><br>
+Terima kasih atas waktu Anda untuk membaca perkenalan singkat ini. Mari kita menjalani pengalaman yang menyenangkan dan bermakna bersama!
+<br><br>
+Salam Hangat,
+<br>Angga Nur Fauyi</p>
+    </div>
+    
+    
+    
+    <script>
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+        
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            
+            text.style.top = 50 + value * -.1 + '%';
+            bird2.style.top = value * -1.5 + 'px';
+            bird2.style.left = value * 2 + 'px';
+            bird1.style.top = value * -1.5 + 'px';
+            bird1.style.left = value * -5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * -.12 + 'px';
+            forest.style.top = value * .25 + 'px';
+            header.style.top = value * .5 + 'px';
+        })
+    </script>
+    
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
